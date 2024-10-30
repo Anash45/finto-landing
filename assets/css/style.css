@@ -1,0 +1,248 @@
+@import url(./font.css);
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.g-sans {
+    font-family: "Google Sans", sans-serif;
+}
+
+body {
+    color: #202124;
+    background-color: #FFFFFF;
+    font-family: "Google Sans", sans-serif;
+    background-image: url(../img/top-eclipse.svg), url(../img/2nd-ellipse.svg), url(../img/body-center-2.svg), url(../img/body-bottom-left.svg), url(../img/body-bottom-right.svg);
+    background-position: top right, left 15%, right 30%, left bottom, right calc(95%);
+    background-size: 30%, 30%, 30%, 15%, 35%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-black {
+    font-weight: 900;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.navbar .btn {
+    font-size: 18px;
+    padding: 12px 24px;
+}
+
+.btn {
+    font-size: 18px;
+}
+
+.sec-title {
+    font-size: 36px;
+}
+
+/* Hero Start */
+
+.h-title {
+    font-size: 48px;
+}
+
+
+.h-desc {
+    font-size: 24px;
+}
+
+.h-note {
+    font-size: 16px;
+}
+
+.hero {
+    padding: 150px 0;
+    background-image: url(../img/laptop-desktop.png);
+    background-position: center right;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+/* Hero End */
+
+/* Cards Section Start */
+
+.card-title {
+    font-size: 20px;
+}
+
+.cards-row {
+    margin: 0 -20px;
+}
+
+.cards-row>div {
+    padding: 18px 20px;
+}
+
+.feat-card {
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 60px -5px rgba(0, 0, 0, 0.08);
+}
+
+.card-flex-1 {
+    gap: 24px;
+}
+
+.card-flex-2 {
+    gap: 18px;
+}
+
+.card-flex-1 {
+    gap: 18px;
+}
+
+/* Cards Section End */
+
+/* Prediction Section Start */
+.predict-desc {
+    font-size: 22px;
+    color: rgba(95, 99, 104, 1);
+}
+
+.predict-note {
+    color: rgba(95, 99, 104, 1);
+}
+
+.predict-img {
+    width: 560px;
+    max-width: 100%;
+}
+
+/* Prediction Section End */
+
+
+/* Globe Section Start */
+.globe-sec {
+    background-image: url(../img/globe-bg.png);
+    background-size: auto 100%;
+    background-position: center;
+    padding: 150px 0;
+    background-repeat: no-repeat;
+}
+
+.globe-img {
+    height: 570px;
+    width: auto !important;
+    max-width: 100%;
+}
+
+/* Globe Section End */
+
+/* Games sec start */
+.logos-img{
+    width: 490px;
+    max-width: 100%;
+    filter: grayscale(1);
+}
+/* Games sec end */
+/* Newsletter sec start */
+
+.nl-title{
+    font-size: 32px;
+}
+.newsletter-box{
+    background-color: var(--bs-green);
+    border-radius: 12px;
+    padding: 28px 50px;
+    position: relative;
+}
+
+.nl-inp{
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.nl-btn{
+    border-radius: 10px;
+}
+.nl-socials{
+    gap: 12px;
+}
+
+.nl-img{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 408px;
+}
+/* Newsletter sec end */
+
+/* Footer Sec start */
+.fs-title{
+    font-size: 24px;
+    line-height: 120%;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(219, 219, 219, 1);
+}
+
+.text-black{
+    color: #000000;
+}
+
+.fs-link{
+    font-size: 18px;
+}
+/* Footer Sec end */
+@media (max-width: 1400px) {
+
+    .hero {
+        padding: 100px 0;
+        background-size: 50% auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .newsletter-box{
+        padding-top: 200px;
+    }
+
+    .nl-img{
+        top: 0;
+        left: 50%;
+        transform: translateY(-160px) translateX(-50%);
+    }
+}
+
+@media (max-width: 992px) {
+    .hero {
+        background-image: unset;
+        padding: 48px 0;
+    }
+    .globe-img {
+        height: auto;
+        width: 100% !important;
+    }
+    .globe-sec {
+        padding: 50px 0;
+        background-size: contain;
+        background-position: bottom;
+    }
+}
+
+@media (max-width: 768px) {
+    .sec-title{
+        font-size: 28px;
+    }
+    .nl-title{
+        font-size: 24px;
+    }
+    .newsletter-box{
+        padding-left: 24px;
+        padding-bottom: 24px;
+        padding-right: 24px;
+    }
+    .nl-img{
+        width: 350px;
+        top: 0;
+        transform: translateY(-110px) translateX(-50%);
+    }
+}
